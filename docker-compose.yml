@@ -4,7 +4,7 @@ services:
   db-postgres-task-io:
     image: postgres:16.2-alpine3.19
     ports:
-      - 5432:5432
+      - 5433:5432
     container_name: "api-task-io"
     volumes:
       - ./db-task-io:/var/lib/postgresql/data
